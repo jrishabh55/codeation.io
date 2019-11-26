@@ -1,0 +1,87 @@
+@import url(./font.css);
+.navbar .navbar-expand-lg .navbar-light{
+  background-color: white;
+}
+
+.logo-nav{
+  height: 70px;
+  padding-left: 5rem;
+}
+.collapse{
+  flex-direction: row-reverse;
+  padding: 0 5rem 0 0 ;
+}
+.navbar{
+  box-shadow: 0 0 10px 0 #888888;
+}
+.navbar-nav{
+  justify-content: space-between;
+  width:50%;
+}
+
+.nav-item{
+  font-family: "Roboto",cursive;
+  text-transform: uppercase;
+  color: black;
+}
+.section-of-foto{
+  margin-top:10px;
+}
+.heading{
+  font-family: "Roboto",cursive;
+  font-weight: 300 !important;
+  padding: 5rem 5rem 2rem 5rem;
+}
+
+.heading-2{
+  font-family: "Roboto",cursive;
+  font-weight: 300 !important;
+  padding: 1rem 5rem;
+  text-align: start;
+}
+
+.blue-girl {
+  float: right;
+}
+.data-photo{
+  padding:5rem 1rem 5rem 5rem;
+}
+.blue-text {
+  color: rgb(60, 177, 197);
+}
+
+.button-a{
+  background-color: rgb(60, 177, 197);
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+  border: 1px solid transparent;
+  font-weight: 300;
+  font-size: large;
+  margin: 2rem 0 2em 5.1rem;
+  box-shadow: 0 0 2px 0 #888888;
+  width: 200px;
+}
+.button-a:hover {
+  background-color:#fff;
+  background-clip: padding-box;
+  color:  rgb(60, 177, 197);
+  box-shadow: 0 0 10px 0 #888888;
+
+}
+.button-a::after{
+  position: absolute;
+  top: -2px;left: -2px;
+  button: -2px;
+  right: -2px;
+  background-color:rgb(60, 177, 197);
+  content: '';
+  z-index: -1;
+  border-radius: 4px;
+}
