@@ -44,16 +44,12 @@
   padding: 1rem 5rem;
   text-align: start;
 }
-
-.blue-girl {
-  float: right;
-}
 .data-photo{
   padding:5rem 1rem 5rem 5rem;
 }
-.blue-text {
+/* .blue-text {
   color: rgb(60, 177, 197);
-}
+} */
 
 .button-a{
   background-color: rgb(60, 177, 197);
@@ -140,4 +136,38 @@
   66% {margin-top:-100px;}
   71% {margin-top:0px;}
   100% {margin-top:0px;}
+}
+.jnex-logo{
+  margin:0 auto;
+
+}
+
+.field-text{
+  margin:5rem auto;
+  text-align:center;
+  /* color:rgb(60, 177, 197); */
+  box-shadow: rgba(0, 0, 0, 0.2) 1px 2px 5px 0px;
+
+}
+.jnex-flow {
+  display:flex;
+  position: relative;
+  background-color: rgba(0, 0, 0, 0.01);
+}
+
+.jnex-flow:before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: -1;
+  opacity: 0.2;
+  background-color: rgba(60, 177, 197,0.1) ;
+  /* background-image:url("../Images/2.png"); */
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+
 }
